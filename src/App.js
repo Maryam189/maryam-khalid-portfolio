@@ -363,12 +363,10 @@ export default function AutomatedPortfolio() {
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-6 flex justify-center gap-3 flex-wrap">
-            <span className="px-4 py-2 bg-purple-500/20 rounded-full text-purple-300 text-sm font-semibold">
-              Available for Freelance Projects
-            </span>
+            
             <span className="px-4 py-2 bg-green-500/20 rounded-full text-green-300 text-sm font-semibold flex items-center gap-2">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              Auto-Updated Portfolio
+              Available for Freelance Projects
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
