@@ -323,9 +323,19 @@ export default function AutomatedPortfolio() {
       <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-purple-500/20">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Maryam Khalid
-            </h1>
+            <a href="#" className="flex items-center gap-3">
+        <img
+          src="/maryli-logo.png"
+          alt="Maryli Tech"
+          className="h-9 w-auto"
+        />
+        <div className="leading-tight">
+          <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Maryli Tech
+          </h1>
+          <p className="text-xs text-slate-400">by Maryam Khalid</p>
+        </div>
+      </a>
             <div className="flex gap-4 items-center">
               <button
                 onClick={fetchGitHubProjects}
