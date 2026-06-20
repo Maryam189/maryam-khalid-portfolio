@@ -121,7 +121,7 @@ export default function AutomatedPortfolio() {
 
       // Less aggressive filtering - only filter out forks
       const validRepos = repos
-        .filter(repo => !repo.fork) // Only exclude forks, keep everything else
+        .filter(repo => !repo.fork && !repo.private && repo.visibility !== 'private')
         .sort((a, b) => {
           // Sort by: stars first, then updated date
           if (b.stargazers_count !== a.stargazers_count) {
