@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Twitter, Mail, ExternalLink, Code, Briefcase, GraduationCap, Award, ChevronDown, Star, GitFork, RefreshCw, AlertCircle, MessageCircle, DollarSign, BriefcaseBusiness } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, ExternalLink, Code, Briefcase, GraduationCap, ChevronDown, Star, GitFork, RefreshCw, MessageCircle, BriefcaseBusiness } from 'lucide-react';
 export default function AutomatedPortfolio() {
   const [activeTab, setActiveTab] = useState('all');
   const [projects, setProjects] = useState([]);
